@@ -98,7 +98,7 @@ else{
 echo $message;
 ?> -->
 
-<!-- // Exercice 8
+ // Exercice 8
 
 <html>
 <body>
@@ -121,7 +121,7 @@ if ($age>21 AND $age<40){
 	}
 }
 echo $message;
-?> -->
+?>
 
 
 

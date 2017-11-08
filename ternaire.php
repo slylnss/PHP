@@ -3,7 +3,7 @@ Exercice 10
 <html>
 <body>
 <br/>
-<form method="POST" action="ternaire.php">
+<form method="GET" action="ternaire.php">
 	Genre: Femme<input type="radio" value="F" name="genre">Homme<input type="radio" value="H" name="genre"><br/><input type="submit" value="ok">
 </form>
 
@@ -14,7 +14,7 @@ Exercice 10
 
 <?php 
 
-$bonjour= $_POST["genre"];
+$bonjour= $_GET["genre"];
 
 $genre = ($bonjour =="H") ? "Bonjour Monsieur" : "Bonjour Madame";
 
